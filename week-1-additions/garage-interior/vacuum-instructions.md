@@ -6,7 +6,7 @@ I don't have time to look at it right now, but I'm leaving myself a note on what
 The `robo-vac.py` itself is a one-foot-by-one-foot-by-one-foot cube, with a vacuum attachment fitted to the bottom.
 That being the case, it can clean one square foot of a floor at any given time.
 The lil' guy moves pretty slowly--this was so I could make sure it's not a hazard while I'm working in here.
-It can move one foot in any cardinal direction (i.e., north, south, east, and west) in five seconds.
+It can move *one foot* in any cardinal direction (i.e., north, south, east, and west) in *five seconds*.
 The garage itself is built so that each wall also faces a cardinal direction.
 
 (I find drawing pictures of all of this helps me keep this information straight.)
@@ -15,7 +15,8 @@ Now, here's the thing: the robot's main functionality in the `main()` function i
 However, it's `battery_calculator()` function needs some TLC. To say the least.
 
 This is because the `robo-vac.py` will only fire up once it's *sure* it has enough battery to get the job done.
-The battery in the vacuum can take a while to charge up, but it drains at a very consistent 1% per minute.
+The battery in the vacuum can take a while to charge up,
+*but it drains at a very consistent 1% per minute that it is powered on.*
 
 The robot's charging station is in the NW corner of the garage.
 When it fires up, the `robo-vac.py` will start moving along the north wall towards the east wall.
@@ -32,7 +33,7 @@ The robot shuts down once it has completed this last pass across the width of th
 
 So here's the long and short of it: **the `battery_calculator()` function inside of the `robo-vac.py`**
 **needs to be able to calculate the `percentage_battery_remaining` after cleaning a room,**
-**given the `width` and `length` of that room.**
+**given the `width` and `length` of that room as user-provided inputs.**
 
 It shouldn't be too difficult to implement--I just haven't had a chance to do so yet.
 Too many other exciting projects to work on!
@@ -46,7 +47,7 @@ That's because the second I power it on it instantly cleans the space it's inhab
 (If I'm confused by that idea, I might think about drawing it out...that always helps me!)
 
 It's also important to note that the `percentage_battery_remaining` that the `battery_calculator()` function produces
-should be a `float`, which is essentially **a number with a decimal point**. If there's 53% battery remaining,
-then that should be represented as `0.53`.
+should be a `float`, which is essentially **a number with a decimal point**.
+For example, **if there's 53% battery remaining, then that should be represented as `0.53`.**
 
 Well, that should be enough information to get me started...whenever I get around to fixing this thing, that is.
