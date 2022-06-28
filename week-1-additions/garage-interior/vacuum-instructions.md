@@ -32,8 +32,8 @@ The robot shuts down once it has completed this last pass across the width of th
 (Unfortunately, I have to manually bring it back to its charging station, but thankfully it's pretty small.)
 
 So here's the long and short of it: **the `battery_calculator()` function inside of the `robo-vac.py`**
-**needs to be able to calculate the `percentage_battery_remaining` after cleaning a room,**
-**given the `width` and `length` of that room as user-provided inputs.**
+**needs to be able to calculate the `percentage_battery_remaining` (assuming it starts with a full battery)**
+**after cleaning a room, given the `width` and `length` of that room as user-provided inputs.**
 
 It shouldn't be too difficult to implement--I just haven't had a chance to do so yet.
 Too many other exciting projects to work on!
@@ -49,5 +49,7 @@ That's because the second I power it on it instantly cleans the space it's inhab
 It's also important to note that the `percentage_battery_remaining` that the `battery_calculator()` function produces
 should be a `float`, which is essentially **a number with a decimal point**.
 For example, **if there's 53% battery remaining, then that should be represented as `0.53`.**
+It'd behoove me to remember that programs in Python can automatically convert
+an `int` into a `float` when performing division.
 
 Well, that should be enough information to get me started...whenever I get around to fixing this thing, that is.
