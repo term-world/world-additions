@@ -1,3 +1,5 @@
+import shutil
+import os
 from dotenv import dotenv_values
 
 VARS = dotenv_values('.vac-eq')
@@ -18,7 +20,9 @@ def battery_calculator() -> (int, int, float):
 
     # IMPLEMENT COMPUTATIONS FOR battery_calculator IN SPACE ABOVE  #
     # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
+    width = 1
+    length = 1
+    percentage_battery_remaining = 1000000
     return width, length, percentage_battery_remaining
 
 
@@ -38,8 +42,36 @@ def main():
         print()
     else:
         # Will need to program the actual floor-cleaning:
-            # Delete the garage-floor folder
-            # Replace with the cleaned garage-floor
+        print()
+        print("PROCEEDING TO VACUUM. PLEASE STAND CLEAR.")
+        print()
+        print("You stand clear of the little robot and watch it *slowly* move about the garage floor.")
+        print("This is clearly going to take a minute, so you run back to your bedroom to take a quick nap.")
+        print()
+        print("After all, healthy sleep hygiene is terribly important.")
+        print("You think you've heard that George Washington was a fan of naps...and you think about that as you doze off...")
+        print()
+        
+        # Sweep the floor...like off the map.
+        shutil.rmtree("dirty-garage-floor")
+
+        # Replace with the new workshop space
+        os.mkdir("workshop")
+        
+        print("...You spring back awake and run to the garage, eager to see the fruits of your labor.")
+        print()
+        print("Now that it's clear of junk. The garage feels...bigger. Like, a LOT bigger.")
+        print("Like, you could probably fit *entire buildings* in here if you wanted to.")
+        print()
+        print("You don't have any vehicles to store in here...")
+        print("...and admit it, reprogramming that robot vacuum was kinda fun...")
+        print("...maybe you'll use this space for your own engineering efforts, like the previous tenant?")
+        print()
+        print("Speaking of that little vacuum, it whirs to life and chirps out:")
+        print("CLEANING COMPLETE. WELCOME BACK TO THE WORKSHOP.")
+        print()
+        print("The workshop it is, then.")
+        
 
 if __name__ == "__main__":
     main()
