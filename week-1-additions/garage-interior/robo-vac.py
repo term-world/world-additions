@@ -6,10 +6,16 @@ from dotenv import dotenv_values
 VARS = dotenv_values('.vac-eq')
 
 def battery_calculator() -> (int, int, float):
+    
 
     # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
     # IMPLEMENT COMPUTATIONS FOR battery_calculator IN SPACE BELOW  #
-    
+
+    # BE SURE TO INDENT EACH LINE OF CODE WRITTEN BY 4 SPACES (1 TAB)
+    # (THIS IS BECAUSE THE CODE YOU WRITE IS PART OF A FUNCTION...
+    # ...MORE ON THAT LATER)
+
+
     # TO-DO: ASK USER FOR NECESSARY INPUTS & CONVERT INTO INTEGERS
     # STORE INTEGER INPUTS IN VARIABLES CALLED width AND length
 
@@ -21,9 +27,7 @@ def battery_calculator() -> (int, int, float):
 
     # IMPLEMENT COMPUTATIONS FOR battery_calculator IN SPACE ABOVE  #
     # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-    width = 1
-    length = 1
-    percentage_battery_remaining = 1000000
+
     return width, length, percentage_battery_remaining
 
 
