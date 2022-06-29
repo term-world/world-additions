@@ -1,6 +1,6 @@
 HOW TO MAKE THE MOST OF YOUR WORKSHOP SPACE:
 
-1. Note the garage's security: while other residents of `term-world` can scope out your `house` and whatever cool things you fill it with, the intense locking mechanisms on your `garage` mean that everything contained within is *for your eyes only*, with one important caveat: given that weekly engineering repositories will be stored here, the instructor *will* have access for grading/evaluation purposes.
+1. Note the garage's security: while other residents of `term-world` can scope out your `house` and whatever cool things you fill it with, the prior tenant installed intense locking mechanisms that only recognize the current `house` inhabitant as having access to the `workshop`. That means everything contained within the `workshop` is *for your eyes only*, with one important caveat: given that weekly engineering repositories will be stored here, the instructor *will* have access for grading/evaluation purposes.
 
 2. Expect *about* one engineering (assignment) repository to work on within your workshop per week.
 
@@ -14,4 +14,4 @@ HOW TO MAKE THE MOST OF YOUR WORKSHOP SPACE:
 - `git push`
 
 
-Try making use of your fancy new workshop now! If you check Discord there should be an engineering repository ready to be cloned into the workshop space.
+Try making use of your fancy new workshop space now! If you check Discord there should be an engineering repository ready to be cloned into the workshop space.

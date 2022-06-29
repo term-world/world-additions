@@ -10,7 +10,7 @@ def battery_calculator() -> (int, int, float):
     # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
     # IMPLEMENT COMPUTATIONS FOR battery_calculator IN SPACE BELOW  #
 
-    # BE SURE TO INDENT EACH LINE OF CODE WRITTEN BY 4 SPACES (1 TAB)
+    # BE SURE TO KEEP EACH LINE INDENTED 4 SPACES (1 TAB)
     # (THIS IS BECAUSE THE CODE YOU WRITE IS PART OF A FUNCTION...
     # ...MORE ON THAT LATER)
 
