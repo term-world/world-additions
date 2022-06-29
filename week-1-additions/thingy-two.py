@@ -29,12 +29,15 @@ def main():
     # TO-DO: DOUBLE THE running_number VARIABLE
 
 
+    # TO-DO: ADD 3 TO THE running_number VARIABLE
+
+
     # TO-DO: PERFORM THE OPERATION running_number DIVIDED BY 5 AND STORE THE REMAINDER OF THE OPERATION IN THE VARIABLE fourth_digit
 
 
     # Display program output to the user
     print()
-    print(f"The second half of the code is {third_digit}{fourth_digit}")
+    print(f"The second half of the code is {int(third_digit)}{int(fourth_digit)}")
     print()
 
 if __name__ == "__main__":
