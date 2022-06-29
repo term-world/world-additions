@@ -1,5 +1,6 @@
 import shutil
 import os
+import gitit
 from dotenv import dotenv_values
 
 VARS = dotenv_values('.vac-eq')
@@ -55,8 +56,9 @@ def main():
         # Sweep the floor...like off the map.
         shutil.rmtree("dirty-garage-floor")
 
-        # Replace with the new workshop space
+        # Replace with the new workshop space & guidelines documentation
         os.mkdir("workshop")
+        gitit.grab_file("https://raw.githubusercontent.com/term-world/world-additions/main/week-1-additions/garage-interior/workshop/workshop-guidelines.md", "workshop/workshop-guidelines.md")
         
         print("...You spring back awake and run to the garage, eager to see the fruits of your labor.")
         print()

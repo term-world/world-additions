@@ -12,3 +12,6 @@ HOW TO MAKE THE MOST OF YOUR WORKSHOP SPACE:
 - `git add -A`
 - `git commit -m "DESCRIPTIVE COMMIT MESSAGE HERE"` (keep the quote marks)
 - `git push`
+
+
+Try making use of your fancy new workshop now! If you check Discord there should be an engineering repository ready to be cloned into the workshop space.
