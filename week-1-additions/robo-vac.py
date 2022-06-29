@@ -7,7 +7,6 @@ VARS = dotenv_values('.vac-eq')
 
 def battery_calculator() -> (int, int, float):
     
-
     # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
     # IMPLEMENT COMPUTATIONS FOR battery_calculator IN SPACE BELOW  #
 
@@ -46,7 +45,6 @@ def main():
         print("You must've gotten something wrong with the battery_calculator...better take another look.")
         print()
     else:
-        # Will need to program the actual floor-cleaning:
         print()
         print("PROCEEDING TO VACUUM. PLEASE STAND CLEAR.")
         print()
@@ -57,12 +55,10 @@ def main():
         print("You think you've heard that George Washington was a fan of naps...and you think about that as you doze off...")
         print()
         
-        # Sweep the floor...like off the map.
         shutil.rmtree("dirty-garage-floor")
 
-        # Replace with the new workshop space & guidelines documentation
         os.mkdir("workshop")
-        gitit.grab_file("https://raw.githubusercontent.com/term-world/world-additions/main/week-1-additions/garage-interior/workshop/workshop-guidelines.md", "workshop/workshop-guidelines.md")
+        gitit.grab_file("https://raw.githubusercontent.com/term-world/world-additions/main/week-1-additions/workshop/workshop-guidelines.md", "workshop/workshop-guidelines.md")
         
         print("...You spring back awake and run to the garage, eager to see the fruits of your labor.")
         print()
