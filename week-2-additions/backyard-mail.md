@@ -23,12 +23,14 @@ So, like I said, if you could just do the following things for me...for *us*...
 Or that garage discount that doesn't really make sense any more.
 
 Here's what I had in mind:
+- [ ] Clean out the sandbox
 - [ ] Freshen up the flowerbeds
 - [ ] Do something about that huge pile of wood
 
-The flowers would probably be easier to tend to first. Shouldn't be too much of an ask.
+The sandbox seems like the top priority. The *smell* coming from that thing is...yikes.
+I'd take care of the flowers next. Seems like an easy enough thing to take care of.
 As far as the wood goes...there'a *lot* of it. And this is a no-burn zone.
-I'm sure you'll figure something out though.
+I'm sure you'll figure something out, though.
 
 Signed,
 
