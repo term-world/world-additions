@@ -1,5 +1,12 @@
 import narrator
 
+from inventory.Item import FixtureSpec
+
+class BustedTV(FixtureSpec):
+
+    def __init__(self):
+        super().__init__()
+
 n = narrator.Narrator()
 
 def main():
