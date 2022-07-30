@@ -1,8 +1,12 @@
 import os
+import math
 import random
 import narrator
 
+from narrator.Checkpoint import exists
+from inventory import Acquire
 from inventory.Item import FixtureSpec
+from inventory.Item import Factory
 
 class Toaster(FixtureSpec):
 
@@ -14,19 +18,19 @@ class Toaster(FixtureSpec):
             random.random() * 10
         )
         if seed > 5:
-            print("🎊🎊 TOAST + 1 🎊🎊")
-            if os.path.exists("a_toast"):
-                os.rename("a_haunted_toast", "stack_of_haunted_toast")
-            files = len(glob.glob("*_toast"))
-            if not files:
-                Path("a_toast").touch()
+            print("🍞 TOAST 🍞")
+            Factory("Toast")
         else:
-            print("NO TOAST 😞")
+            print("Nothing happens.")
 
 def main():
-    n = narrator.Narrator()
-    n.path.change(10.0)
-    n.narrate()
+    #n = narrator.Narrator()
+    #n.path.change(10.0)
+    #n.narrate()
+    t = Toaster()
+    t.use()
+    if exists(["Toast.py"]):
+        Acquire("Toast.py")
 
 if __name__ == "__main__":
     main()
