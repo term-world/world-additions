@@ -24,9 +24,10 @@ class Toaster(FixtureSpec):
             print("Nothing happens.")
 
 def main():
-    #n = narrator.Narrator()
-    #n.path.change(10.0)
-    #n.narrate()
+    n = narrator.Narrator()
+    n.path.change(10.0)
+    n.narrate()
+
     t = Toaster()
     t.use()
     if exists(["Toast.py"]):
