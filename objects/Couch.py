@@ -1,6 +1,6 @@
 from inventory.Item import FixtureSpec
 
-def Couch(FixtureSpec):
+class Couch(FixtureSpec):
 
     def __init__(self):
         super().__init__()

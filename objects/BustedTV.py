@@ -10,6 +10,7 @@ class BustedTV(FixtureSpec):
 n = narrator.Narrator()
 
 def main():
+    tv = BustedTV()
     n.path.change(9.0)
     n.narrate()
 
