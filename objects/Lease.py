@@ -7,15 +7,55 @@ class Lease(FixtureSpec):
 
   def __str__(self) -> str:
     return """
-Residential lease property tenant association, apartment such residential flat lease. Apartment licensed residential tenancy housing tenancy law. Residential housing apartment such flat such owners, affordable landlord association term tenancy. Landlord such estate residential lease lease residential flat. Lease term term housing apartment housing landlord owners licensed, apartment housing tenancy law landlord. Apartment buildings association residential owners association tenant, law law tenancy licensed housing. Affordable licensed rent lease lease, flat property tenancy tenant buildings tenant affordable property. Term such association, law rent property term housing owners apartment landlord association. Affordable tenant apartment such, tenant landlord affordable affordable law owners estate estate.
+# Very Official `term-world` lease
 
-Association housing licensed property term flat housing. Tenant affordable tenant rent residential, law affordable tenancy property residential. Licensed housing property housing landlord property housing. Tenant landlord flat residential property owners lease, term affordable association residential. Association owners housing such apartment estate landlord licensed law.
+Oh, you're here.
 
-Term tenancy residential law housing residential, rent housing tenancy apartment tenant association. Such association tenant owners law residential such, landlord tenant property landlord rent housing owners. Association property such property tenancy owners buildings residential tenant. Landlord buildings law tenancy owners affordable housing such rent, affordable estate rent tenant property. Tenant tenancy buildings landlord landlord tenant residential property housing, flat affordable flat affordable.
+We didn't expect you so soon.
 
-Buildings owners owners, estate property licensed term owners term term tenancy lease licensed residential. Tenant rent residential tenant tenant, rent rent tenancy tenant estate law. Owners apartment apartment residential estate apartment buildings residential.
+Congratulations on moving to `term-world`, etc, blah blah blah. This document finalizes your residency so that you can have a wonderful,
+labor-intensive time here, etc, blah blah blah.
 
-Residential tenancy tenancy property tenant housing apartment. Owners housing estate lease affordable lease housing affordable. Affordable affordable flat residential term flat, law law tenancy lease. Tenant licensed flat tenant such licensed buildings, lease residential landlord rent residential tenancy. Apartment affordable residential, flat buildings tenancy apartment housing affordable such residential tenant affordable tenant. Flat flat rent affordable lease buildings association, apartment housing association flat flat. Buildings buildings buildings housing, licensed such apartment owners housing licensed housing lease association association. Estate tenant buildings, rent estate rent flat licensed flat property owners association estate. Buildings tenant law landlord association, buildings buildings affordable such housing association flat.
+Lorem ipsum and some more very official language. Lorem ipsum and some more very official language. Lorem ipsum and some more very official language.
+Lorem ipsum and some more very official language. Lorem ipsum and some more very official language. Lorem ipsum and some more very official language.
+Lorem ipsum and some more very official language. Lorem ipsum and some more very official language. Lorem ipsum and some more very official language.
+Lorem ipsum and some more very official language. Lorem ipsum and some more very official language. Lorem ipsum and some more very official language.
+Lorem ipsum and some more very official language. Lorem ipsum and some more very official language. Lorem ipsum and some more very official language.
+Lorem ipsum and some more very official language. Lorem ipsum and some more very official language. Lorem ipsum and some more very official language.
+Lorem ipsum and some more very official language. Lorem ipsum and some more very official language. Lorem ipsum and some more very official language.
+Lorem ipsum and some more very official language. Lorem ipsum and some more very official language. Lorem ipsum and some more very official language.
+Lorem ipsum and some more very official language. Lorem ipsum and some more very official language. Lorem ipsum and some more very official language.
+Lorem ipsum and some more very official language. Lorem ipsum and some more very official language. Lorem ipsum and some more very official language.
+
+   
+Oh, right, you need to know what to do.
+
+## Setting up residency
+
+You need to tell `term-world` who you are in order to truly send and receive things. In your terminal, this is what you need to do (you
+can copy and paste these commands, changing relevant details):
+
+### 1. Setting up who you are
+
+```
+git config --global user.email "YOUR_ALLEGHENY_EMAL"
+```
+
+### 2. Labeling how you appear
+
+```
+git config --global user.name "YOUR_GITHUB_USER_NAME"
+```
+
+## Signature
+
+- [ ] `TODO`
+
+To sign the above:
+
+1. Remove the `TODO` and replace it with your GitHub username
+2. Place an `x` inside the brackets (`[]`) to check the box and official sign this document
+
 """
 
   def use(self) -> str:

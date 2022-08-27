@@ -1,3 +1,4 @@
+import gitit
 import importlib
 import inventory
 
@@ -7,7 +8,7 @@ class Printer(FixtureSpec):
 
     def __init__(self):
         super().__init__()
-    
+
     def write(self, document:str):
         try:
             mod = importlib.import_module(document)
@@ -20,3 +21,11 @@ class Printer(FixtureSpec):
 
     def use(self, document):
         self.write(document)
+
+def main():
+  gitit.get(file_name = "Lease.py")
+  obj = Printer()
+  obj.use("Lease")
+
+if __name__ == "__main__":
+  main()

@@ -9,7 +9,7 @@ class Couch(FixtureSpec):
 
     def use(self):
         gitit.get(file_name = "Ink.py")
-        
+
 
 def main():
     obj = Couch()
