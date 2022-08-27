@@ -6,7 +6,7 @@ from inventory.Item import ItemSpec
 class Ink(ItemSpec):
 
   def __init__(self):
-    super().__init__()
+    super().__init__(__file__)
 
 def main():
   filename = sys.argv[0]
