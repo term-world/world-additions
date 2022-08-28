@@ -1,7 +1,10 @@
+import os
 import gitit
 import importlib
 import inventory
+import narrator
 
+from narrator import Checkpoint
 from inventory.Item import FixtureSpec
 
 class Printer(FixtureSpec):
@@ -23,9 +26,20 @@ class Printer(FixtureSpec):
         self.write(document)
 
 def main():
-  gitit.get(file_name = "Lease.py")
-  obj = Printer()
-  obj.use("Lease")
+
+  n = narrator.Narrator()
+  n.path.change(6)
+  
+  if Checkpoint.check_flag("ink"):
+    n.path.scene = 2
+    gitit.get(file_name = "Lease.py")
+    obj = Printer()
+    obj.use("Lease")
+    os.remove( 
+      "Lease.py"
+    )
+
+  n.narrate()
 
 if __name__ == "__main__":
   main()
