@@ -20,6 +20,8 @@ class Toaster(FixtureSpec):
         if seed > 5:
             print("🍞 TOAST 🍞")
             Factory("Toast")
+            Acquire("Toast.py")
+            os.remove("Toast.py")
         else:
             print("Nothing happens.")
 
@@ -30,8 +32,6 @@ def main():
 
     t = Toaster()
     t.use()
-    if exists(["Toast.py"]):
-        Acquire("Toast.py")
 
 if __name__ == "__main__":
     main()
