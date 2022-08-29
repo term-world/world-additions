@@ -1,6 +1,6 @@
 import narrator
 
-from Inventory.Item import FixtureSpec
+from inventory.Item import FixtureSpec
 
 class GameCylider(FixtureSpec):
 
