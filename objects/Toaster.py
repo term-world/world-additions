@@ -18,12 +18,12 @@ class Toaster(FixtureSpec):
             random.random() * 10
         )
         if seed > 5:
-            print("🍞 TOAST 🍞")
+            print("🍞 ACQUIRED 1 TOAST 🍞")
             Factory("Toast")
             Acquire("Toast.py")
             os.remove("Toast.py")
         else:
-            print("Nothing happens.")
+            print("The Toaster.py sparks, but nothing else happens. Maybe try running it again?")
 
 def main():
     n = narrator.Narrator()
