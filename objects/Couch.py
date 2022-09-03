@@ -8,8 +8,10 @@ class Couch(FixtureSpec):
         super().__init__()
 
     def use(self):
+      try:
         gitit.get(file_name = "Ink.py")
-
+      except:
+        print("It looks like you already found think Ink!")
 
 def main():
     obj = Couch()
