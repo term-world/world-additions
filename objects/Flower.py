@@ -1,3 +1,5 @@
+import sys
+
 from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageColor
@@ -14,8 +16,12 @@ class Flower(ItemSpec):
       (self.size, self.size),
       (0,0,0,0)
     )
-    self.color = ImageColor.getrgb(color)
-
+    try:
+        self.color = ImageColor.getrgb(color)
+    except ValueError:
+        print("Hm. That's one rare color of flower. We can't get that!")
+        sys.exit(1)
+        
   def __str__(self) -> str:
     return f"It's a {self.color} flower"
 
