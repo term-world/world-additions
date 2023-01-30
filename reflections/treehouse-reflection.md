@@ -59,15 +59,15 @@ TODO - DESCRIPTION OF SIMILARITIES/DIFFERENCES HERE
 
 *Please answer all below questions pertaining to an evaluation of the operations being briefed.*
 
-### Describe your experience with `FlowerBed.py`: what was difficult about commenting code that had already been written?
+### Describe the process of growing crops; what was the "algorithm" (or list of steps) that you followed?
 
 TODO
 
-### We've already been working with functions a bit: `print()`, `main()`, `int()`, and `input()` for example. Speculate: why do some return values and others not?
+### This work required you to use `methods` (i.e. functions which are "attached" to _things_). They didn't seem to `return` anything, but performed some action(s). Why do you think that is?
 
 TODO
 
-### You've been using GitHub for three weeks now--what aspects of using GitHub have become easier for you?
+### You've been using GitHub for three weeks now -- what aspects of using GitHub have become easier for you?
 
 TODO
 
