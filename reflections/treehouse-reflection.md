@@ -1,4 +1,4 @@
-![term-world Mayoral Seal](https://user-images.githubusercontent.com/1552764/215438658-c700be69-bb03-4196-99a9-c02943a06963.png)
+![term-world Mayoral Seal](https://user-images.githubusercontent.com/1552764/215439183-8748747c-b24a-48c1-909e-3eb398e8b155.png)
 
 # BASIC ITEMIZED GUIDE for BRIEFING RECENT OPERATIONS
 
