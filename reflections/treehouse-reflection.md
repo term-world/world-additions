@@ -46,11 +46,11 @@ TODO
 
 ### Copy a function *signature* from one of this week's assignments into a triple-backtick fenced code block. Then copy a line that includes that function's *call* or *invocation* into another triple-backtick fenced code block below it. How are the two lines of code similar? How are they different?
 
-```
+```python
 TODO - FUNCTION SIGNATURE HERE
 ```
 
-```
+```python
 TODO - FUNCTION CALL HERE
 ```
 
