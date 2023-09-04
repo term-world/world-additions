@@ -11,7 +11,7 @@ n = narrator.Narrator()
 
 def main():
     tv = BustedTV()
-    n.path.change(9.0)
+    n.path.change({"act": 9, "scene": 0})
     n.narrate()
 
 if __name__ == "__main__":
