@@ -2,7 +2,7 @@ from rich.console import Console
 from rich.markdown import Markdown
 from inventory.specs import ItemSpec
 
-def Robot(ItemSpec):
+class Robot(ItemSpec):
 
     def __init__(self):
         super().__init__(__name__)
@@ -13,4 +13,6 @@ def Robot(ItemSpec):
 
     def use(self):
         console = Console()
-        console.print(Markdown("> Auto5 is aliiiiive!"))
+        console.print(Markdown("""> The robot throws itself at the challenge ahead while yelling 'Auto5 is aliiiiive!'
+        
+> This will turn out just fine."""))
