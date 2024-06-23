@@ -2,7 +2,7 @@ from rich.console import Console
 from rich.markdown import Markdown
 from inventory.specs import ItemSpec
 
-class Robot(ItemSpec):
+class Automaton(ItemSpec):
 
     def __init__(self):
         super().__init__(__name__)
