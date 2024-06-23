@@ -13,6 +13,6 @@ class Automaton(ItemSpec):
 
     def use(self):
         console = Console()
-        console.print(Markdown("""> The robot throws itself at the challenge ahead while yelling 'Auto5 is aliiiiive!'
+        console.print(Markdown("""> The Automaton throws itself at the challenge ahead while yelling 'Auto5 is aliiiiive!'
         
 > This will turn out just fine."""))
